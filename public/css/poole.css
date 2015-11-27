@@ -106,7 +106,7 @@ h4, h5, h6 {
 /* Body text */
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 strong {
@@ -228,9 +228,9 @@ blockquote p:last-child {
 }
 
 img {
-  display: block;
+  // display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
+  margin: 0 0 0rem;
   border-radius: 5px;
 }
 
@@ -259,7 +259,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
