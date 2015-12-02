@@ -3,7 +3,7 @@ layout: post
 title: Markdown Cheat Sheet
 ---
 
-This is a post for me to reference with markdown on it, so I know what the syntax is. It is based on this [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](markdown cheatsheet) tweaked for Kramdown.
+This is a post for me to reference with markdown on it, so I know what the syntax is. It is based on this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) tweaked for Kramdown.
 
 ### Headers
 
@@ -51,19 +51,17 @@ Superscript <sup>text</sup> also with HTML
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
 Use angle brackets to get a link <http://www.example.com>
 
 ### Images
 
 Inline-style:
-![alt text](public/images/test-image.png "Logo Title Text 1")
+![alt text](/public/images/test-image.png "Logo Title Text 1")
 
 Reference-style:
 ![alt text][logo]
 
-[logo]: public/images/test-image.png "Logo Title Text 2"
+[logo]: /public/images/test-image.png "Logo Title Text 2"
 
 ### Tables
 
