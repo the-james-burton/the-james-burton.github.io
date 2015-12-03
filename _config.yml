@@ -3,7 +3,7 @@ title: jimsey.org
 description: not doing sudoku on the train
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "http://www.jimsey.org" # the base hostname & protocol for your site
 
 author:
   fullname: James Burton
