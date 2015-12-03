@@ -1,36 +1,19 @@
-# Dependencies
-# markdown:         redcarpet
-markdown:         kramdown
-highlighter:      pygments
+# Site settings
+title: jimsey
+description: >
+  Stuff done on the train.
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
-
-# Setup
-title:            jimsey
-tagline:          'A website of some sort.'
-description:      'Stuff done when on the train.'
-url:              http://www.jimsey.org
-baseurl:          /
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000" # the base hostname & protocol for your site
 
 author:
-  name:           'James Burton'
-  url:            https://github.com/the-james-burton
+  fullname: James Burton
+  googleplus: https://plus.google.com/u/0/104887858566440024499
+  github: the-james-burton
+  twitter: na
+  # disqus: your_disqus_username
 
-paginate:         5
+# google_analytics: 'UA-XXXXXXXX-X'
 
-# Custom vars
-# version:          2.1.0
-
-github:
-  repo:           https://github.com/the-james-burton
-
-soundcloud:
-  url:            https://soundcloud.com/jimsey
-
-linkedin:
-  url:            https://uk.linkedin.com/in/james-burton-86bb1730
-
-license:
-  url:            https://creativecommons.org/licenses/by/4.0
+# Build settings
+markdown: kramdown
