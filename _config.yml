@@ -1,7 +1,6 @@
 # Site settings
-title: jimsey
-description: >
-  Stuff done on the train.
+title: jimsey.org
+description: not doing sudoku on the train
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://localhost:4000" # the base hostname & protocol for your site
@@ -10,10 +9,18 @@ author:
   fullname: James Burton
   googleplus: https://plus.google.com/u/0/104887858566440024499
   github: the-james-burton
-  twitter: na
+  soundcloud: jimsey
+  linkedin: james-burton-86bb1730
   # disqus: your_disqus_username
 
 # google_analytics: 'UA-XXXXXXXX-X'
 
 # Build settings
 markdown: kramdown
+
+theme:
+  author: kronik3r
+  name: daktilo
+
+license:
+  url: https://creativecommons.org/licenses/by/4.0
