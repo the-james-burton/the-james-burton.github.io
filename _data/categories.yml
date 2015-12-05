@@ -1,8 +1,5 @@
-- slug: design
-  name: Design
+- slug: client
+  name: Client
 
-- slug: tools
-  name: Tools
-
-- slug: productivity
-  name: Productivity
+- slug: server
+  name: Server
