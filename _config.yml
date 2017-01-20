@@ -19,7 +19,7 @@ author:
 # Build settings
 markdown: kramdown
 
-theme:
+attribution:
   author: kronik3r
   name: daktilo
 
