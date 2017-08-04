@@ -106,7 +106,7 @@ More than likely, your HDPE bottles are translucent. The chemistry is not light 
 
 Make up three waterproof labels 'STOPBATH', 'FIXER' and 'WETTING' and affix these to each of your three 1 litre HDPE bottles. I use a tape-based labeller. Once attached to the bottle, I wrap it once round with clear tape. The reason we don't need one for the developer is that we don't reuse it, so it does not need a bottle to be stored in.
 
-You also need to label your measuring jugs. The three labels should be 'STOPBATH', 'FIXER' and 'DEV'. You will use these to hold the chemicals before you pour them into the developing tank. It is much easier to pour from a measuring jug than the bottle without spillage. You don't really want acidic stopbath and alkaline fixer slopping about because you tried to pour from the bottle directly. Note that I do pour the wetting agent in directly from the bottle, since that is a non-toxic solution, like washing up liquid. That's why I don't have a jug for it.
+You also need to label your measuring jugs. The three labels should be 'STOPBATH', 'FIXER' and 'DEV'. You will use these to hold the chemicals before you pour them into the developing tank. It is much easier to pour from a measuring jug than the bottle without spillage. You don't really want stopbath and fixer slopping about because you tried to pour from the bottle directly. Note that I do pour the wetting agent in directly from the bottle, since that is a harmless solution, like washing up liquid. That's why I don't have a jug for it.
 
 Needless to say, labelling your jugs and bottles is absolutely essential so you don't confuse them and ruin your films.
 
@@ -157,9 +157,15 @@ Lomography offer a little lightbox that helps you scan your negatives with your 
 
 In my opinion, which is based on nothing but study, a secondhand Sony NEX 3 with a SEL30M35 macro lens represents the best price/performance ratio available today, assuming it can be adapted appropriately to take photos of negatives from a light source. Your scanning camera should support RAW format to allow the most control in your darkroom software. The advice I offer later about digital processing assumes that you have RAW files.
 
-#
+# Setting up your digital darkroom
 
-# The darkroom software
+# Install the software
+
+I decided a few years ago to use only free software, preferring open source where possible. This includes running Linux as my main operating system. Of course, you do not have to run linux, but if you do run Windows, then you may struggle to run my digital darkroom app of choice, Darktable. There is no official Windows build available at the time of writing. You may therefore prefer to use RawTherapee instead, as a good and open source equivalent. Unfortunately, I cannot offer any advice on its use, although I have tried it. It appears to offer more than darktable in the way of 'scientific' image adjustment, but feels harder to use and less practical in the real world, especially dealing with images in bulk. LightZone is another alternative but I am yet to try it.
+
+All I can say that darktable is a truly amazing piece of software and fits naturally and beautifully into my workflow, almost as if the designers use it in the same way that I do. There is very little compromise. I do wish that it had the ability to edit exif tags as that would allow me to remove a step from my workflow, but everyting else about it is perfect.
+
+# The choices
 
 If you have purchased a dedicated film scanner of some sort, then you may not need to worry about darkroom software. The hardware and proprietary software will do their thing and you will get what you are given, more than likely as a JPG or maybe a TIFF file. There is no problem with that if you are happy with the results. Of course you may wish to digitally process the file further. If you do, then there is a wider variety of software that you can consider using, since you don't have a RAW file.
 
@@ -193,23 +199,17 @@ Secondly, a zoom lens is a big distraction. It is hard enough to focus correctly
 
 ## Store the film
 
-When you have shot a roll of film, don't just wind it all up immediately onto the spool. There is a simple technique that will make you life easier when working in the changing bag. In my extensive study of film photography, I only read about this trick once. When you try it yourself, you will never take a film out of your camera any other way.
+When you have shot a roll of film, don't just wind it all up immediately onto the spool. There is a simple technique that will make your life easier when working in the changing bag. In my extensive study of film photography, I only read about this trick once. When you try it yourself, you will never take a film out of your camera any other way.
 
 The trick is to leave a little bit of film leader exposed on the roll when you wind it up. Don't completely wind the film up into the spool. Instead, pay attention to your camera when you are winding your film up. While winding it up, you will feel and hear it detach from the spool. That is when you need to stop. It is easy to feel this point. Once you wind up a few films, you will know approximately how many turns your camera needs to wind the film up off the spool. Once you feel it clunk off, wind it another quarter turn then open your camera. Fold the last 5mm of film back on itself then hand-wind the rest of the film into the canister. (photo).
 
 Doing this will make your life so much easier. You will see why when you read about loading your tank.
 
-# Back in the Lab to Develop a Film
+# In the Lab - Loading the developing tank
 
-# Load the developing tank
+For many people, this is the most uncertain step. A seemingly complex and high-risk task with almost no instruction. "Just load the film onto the reels". Hmm.  The first thing to do is to get familiar with the reel. Know how to open it and close it. Do it several times. You will want to be comfortable opening it when you have developed your film and want to take it out of the reel. Hold the reel vertically, with the two discs in each hand and the little ball bearings at the top. To open the reel you hold the left hand reel still and twist the right hand reel upwards until it clicks open. You will feel some resistance. Push through it and it will click open. To close it, just do the reverse.
 
-For many novices, this is the most uncertain step. A seemingly complex and high-risk task with almost no instruction. "Just load the film onto the reels". Hmm. Various internet videos show the loading of the reel and simply say "do it in the bag".
-
-One thing to do is to get familiar with the reel. Know how to open it and close it. Do it several times. You will want to be comfortable opening it when you have developed your film and want to take it out of the reel. To open the reel you hold the left hand reel still and twist the right hand reel upwards until it clicks open. You will feel some resistance. Push through it and it will click open.
-
-If you have followed my advice above section about storing your film and left a little bit of film leader sticking out of the canister, then the task of actually loading you undeveloped film onto the reel is about to get a whole lot easier.
-
-The initial 'priming' of the film onto the reel can be done in daylight, outside of the bag...
+If you have followed my advice above section about storing your film and left a little bit of film leader sticking out of the canister, then the task of actually loading you undeveloped film onto the reel is easy. The initial 'priming' of the film onto the reel can be done in daylight, outside of the bag...
 
 0. Pull the film leader out about as much as if you were loading it into your camera again.
 0. Cut the leader off so the film is full width at your cut point. Cut off the minimum amount needed.
@@ -232,9 +232,9 @@ If you have problems loading the film then you will have to try and asses what h
 
 The worst case is if the reel comes apart and spills the film after you have cut the canister off. If that should ever happen, then I suggest you put on your white gloves that you have put into the bag, close the reel, find the leading film edge and try again. It is possible to take you arms out of the bag without exposing your film to light. Your arms pass through two elastic rings. You can take one hand out of one ring and then use your other hand inside the bag to press down on this first ring to block out light and to allow you to withdraw your first hand. You can then do similar with the other hand. Note that if your arms are out of the bag then the elastic rings are not closed and probably letting light in. You can put a book on top to help keep the light out. I offer no guarantees on this. I have done this before successfully without exposing the film to light. Work calmly, patiently and accurately and you should never need to attempt it.
 
-# Mix the chemicals
+# In the lab - Mixing the chemicals
 
-There are two stages of chemical mixing. The first stage is done to make the reuseable chemistry, specifically the stopbath, the fixer and the wetting agent. In the second stage you need to make up fresh developer prior to use.
+There are two stages of chemical mixing. The first stage is done to make the reuseable chemistry, specifically the stopbath, the fixer and the wetting agent. In the second stage you need to make up fresh developer just prior to use.
 
 ## Reusable chemicals
 
@@ -250,45 +250,47 @@ As it happens, the stopbath isn't a critical part of the process. You can just w
 
 ## One-shot developer
 
-If you have chosen to use a high-concentrate developer as I have, then you will need to mix up a fresh batch each time. The Ilfotec HC guide tells you to make up a 'working solution'. It tells you that mixing direct from the concentrated 'syrup' is hard. I disagree with this advice. There is a way of working that allows you to keep your concentrate fresh while still mixing up directly each time. The rest of this section tells you how to do this.
+If you have chosen to use a high-concentrate developer as I have, then you will need to mix up a fresh batch each time. Do this after you have loaded your tank and are ready to develop. This is true for most developers. Below, I describe my process for using Ilford Ilfotec HC, although the advice applies equaly to any high concentrate 'syrup', such as Kodak HC-110.
 
-You should have a 100ml brown glass bottle, the sort that kids medicine comes in. As stated earlier, this needs to be completely clean. You need to fill this little bottle from the big bottle of concentrated developer. Be careful while doing this. Wear rubber gloves and work over a sink. Ideally use a larger plastic syringe with a short hose on the end. Once you have filled your little bottle you will draw from it to make up your one-shot developer. This leaves your big bottle on the shelf most of the time. Top it off with argon for long term storage.
+The Ilfotec HC guide tells you to make up a 'working solution'. It tells you that mixing direct from the concentrated 'syrup' is hard. I disagree with this advice. There is a way of working that allows you to keep your concentrate fresh while still mixing up directly each time.
 
-You do not need distilled water for the developer. Before you begin mixing a dev solution, you do need a pitcher of tap water at 20oC. I like to keep two 2 litre bottles of tapwater stored in a dark place in my house. This means I always have water at about 20oC ready to use whenever I need it. Alternatively you can adjust the temperature of your tapwater using boiling or chilled water from your fridge as required. It doesn't have to be exactly 20oC. Within 0.05oC is good enough for me.
+You should have a 100ml brown glass bottle, the sort that kids medicine comes in. As stated earlier, this needs to be completely clean. You need to fill this little bottle from the big bottle of concentrated developer. Be careful while doing this. Wear rubber gloves and work over a sink. Ideally use a larger plastic syringe with a short hose on the end. Once you have filled your little bottle you will draw from it to make up your one-shot developer. This leaves your big bottle untouched on the shelf most of the time. Top it off with argon for long term storage.
+
+You do not need distilled water for the developer. Before you begin mixing a dev solution, you do need a pitcher of tap water at 20oC. I like to keep two 2 litre bottles of tapwater stored in a dark place in my house. This means I always have water at about 20oC ready to use whenever I need it. Alternatively you can adjust the temperature of your tapwater using boiling or chilled water from your fridge as required. It doesn't have to be exactly 20oC. Within 0.5oC is good enough for me.
 
 Get your measuring jug labelled 'DEV' and make sure it is clean. Using your little syringe, draw out a full 10ml and empty into the 'DEV' measuring jug. Do the same again, to get 20ml of concentrated developer in your jug. Fill up your jug to 650ml using the water in your pitcher at 20oC. This is your 1:31 dev mix. Now you can 'wash out' your little syringe you used to draw the concentrate using this dev mix in the jug. Stir your dev mix thoroughly with a metal spoon or fork.
 
-Please note that you should mix up your developer only after loading you films in the tank. if you were to mix the dev before loading the tank, then there is a chance that developer solution could get onto the films accidentally, either from a surface or your hands. This will of course spoil your negatives.
+Please note that you should mix up your developer only after loading your films in the tank. if you were to mix the dev before loading the tank, then there is a chance that developer solution could get onto the films accidentally, either from a surface or your hands. This will of course spoil your negatives.
 
-# Develop the film
+# In the Lab - Developing the film
 
 You are still not quite ready to start developing! First, think ahead to where you are going to hang the films to dry. You need somewhere with at least 1.5m clearance from the ground that you can hang your negative clips from. When the films come out of the tank after development, make sure you know where they are going to go. I use a pair of metal kebab skewers pushed under stuff on top of a wardrobe. This gives me two rings on which I can hang the two negatives clips that result from developing two rolls of film in one go. It pays to think ahead at this stage.
 
-Secondly, are your premixed reusable chemicals in bottle at approximately the right temperature? I store mine in a place that is well below room temperature during the winter. I therefore move them to somewhere that is at room temperature several hours before I start developing. This allows them to get up the the right temperature. Only the dev solution needs to be at a more accurate temperature. The stopbath and fixer can be +/- 5oC of your dev solution.
+Secondly, are your premixed reusable chemicals in bottle at approximately the right temperature? I store mine in a place that is well below room temperature during the winter. I move them to somewhere that is at room temperature several hours before I start developing and leave them there for a few hours. This allows them to get up the the right temperature. Room temperature is good enough. Only the dev solution needs to be at a more accurate temperature. The stopbath and fixer can be +/- 5oC of your dev solution.
 
 The development process is simply a series of liquids poured into your dev tank at timed intervals. These intervals are short and once you are ready, the entire process is over in less than 20 minutes. Assemble everything you need in one place...
 
-0. Your three mixed 1 litre HDPE chemical bottles (stopbath, fixer, wetting).
+0. Your three pre-mixed 1 litre HDPE chemical bottles (stopbath, fixer, wetting).
 0. Your three measuring jugs, stopbath, fixer and dev. The dev jug will already have your one-shot developer solution ready to use.
 0. The timer.
 0. The funnel. Make sure it is clean.
 0. The negative hanging clips.
 0. Your development tank loaded with films you are going to develop now.
 
-Pour the stopbath and fixer from their bottles into their jugs. You should now have all three jugs filled with the correct chemicals ready to use immediately. Leave the bottles for stopbath and fixer nearby, as you will be refilling them from the tank shortly.
+Pour the stopbath and fixer from their bottles into their jugs. You should now have all three jugs filled with the correct chemicals ready to use immediately. Leave the bottles for stopbath and fixer nearby, as you will be refilling them from the tank shortly. I put my funnel in the mouth of the stopbath bottle in preparation, since that is when it is first used.
 
 There are many articles and videos on the internet that show you how to perform the actual dev process. I will just provide a brief yet complete guide here.
 
 0. **Wash the films** - Fill your loaded tank up with pitcher water and put the lid on. Gently invert four times and leave for 1 min. While waiting, set your timer to the required dev time. When time is up, pour water away down the sink.
 0. **Developer** - Fill the tank with your dev solution from your 'DEV' measuring jug and then immediately start your timer and put the lid on. Gently invert the tank four times, then tap it a few times on your surface to dislodge any bubbles, then wait for 1 min. Once every further minute, do the same four inversions and tap until your timer goes off. When the timer goes off, pour the dev away and immediately go to the next step without delay.
-0. **Stopbath** - Immediately after you empty your tank of dev, pour in the stopbath from the 'STOPBATH' measuring jug and put the lid on. Invert the tank once and tap it. Set 4 minutes onto your timer, but don't start it. Pour the stopbath back into its bottle using the funnel. This was a short step. Now go to the next step.
+0. **Stopbath** - Immediately after you empty your tank of dev, pour in the stopbath from the 'STOPBATH' measuring jug and put the lid on. Invert the tank once and tap it. Set 4 minutes onto your timer, but don't start it. Without waiting, pour the stopbath back into its bottle using the funnel. This was a short step. Now go to the next step.
 0. **Fixer** - Fill the tank with the fixer from your 'FIXER' measuring jug. Put the lid on and start your timer. Same inversion process as dev:  Do four inversions and tap once a minute until your timer goes off. While waiting, rinse out your funnel. When time is up, pour the fixer back into its bottle using your funnel. Go to the next step.
 0. **Wash** - You will do a three stage wash known as the 'Ilford Archival Wash'. Fill the tank with pitcher water and invert 5 times. Empty and refill. 10 inversions. Empty and refill. 20 inversions. Don't skip this washing process. It is important that you get all the fixer out of the film to ensure the negatives will last a long time without degrading. Empty the third wash water out and go to the next step.
 0. **Wetting** - Pour in your wetting solution from your bottle marked 'WETTING'. There is no need to invert or wait here. Simply rinse your funnel and then pour the wetting solution back into its bottle.
 
 After the wetting agent, that's it, your films are developed! You can open the dev tank and have a look. This is always the exciting part, no matter how many film you develop! Has it worked? Any great photos? It is much more satisfying than simply copying files off a digital camera memory card. Here you have a real little picture, captured by the magic of silver and chemistry.
 
-# Dry the negatives
+## Dry the negatives
 
 To take the film out of the reels, simply hold the reel with your hand in the same place as you did when loading it. This time, twist it onto its side, so that your right hand is on the bottom. Twist your right hand clockwise, keeping your left still. This is similar to how you loaded the film. Push past the end stop. The reel will click open.
 
@@ -300,7 +302,7 @@ Now fold over the black end of the film strip at the bottom and clip your weight
 
 Once done, remember to clean everything up. Wash your tank, measuring jugs, funnel and anything else that was involved in the process. I don't use any soap or washing up liquid for this, I just rinse with tap water and wipe with a dedicated microfibre cloth (not the one used for drying negatives, of course).
 
-# Store the negatives
+# Before scanning - flatten the negatives
 
 So now we start to enter the second half of the process, in which you scan the negatives and digitise them.  You need to find somewhere soft where you can safely place the long uncut negative strip down and proceed to cut it. A bed or a sofa is ideal. Get a sheet of negative storage paper for each film you have and a pair of scissors. Make sure you have the strip face up and start from the beginning of the film. You will see frame numbers on the film. Use these to get the strip in the correct orientation. Cut six frames per cut, strating from the first image and put them into the storage paper immediately, to keep them safe.
 
@@ -310,7 +312,7 @@ At the end of the strip, you may have up to one frame of unexposed film. Leave i
 
 Once the strip is safely cut up and in the storage paper, place it on a flat, clean surface and put a heavy hardback book on it. If this is your first time developing film, you will naturally be wanting to digitise them as soon as possible so you can have a look. However, I advise storing them for 24 hours first under a large heavy book to fully flatten them. If you don't do this, you are likely to have trouble getting the negatives flat for a scan, especially if you are following my advice and digitising them with a digital camera.
 
-# Scan the negatives
+# Digitization - Scaning the negatives
 
 Now you need to use your choice of scanning hardware to digitise your negatives. Here, I will present only my method, which is to use a digital camera. Before you start this process, you will need to prepare you digital camera settings. I suggest the following:
 
@@ -359,17 +361,12 @@ My preferred folder structure is simple and looks like the below. I'm not saying
 
 Copy all the digital scans up to the correct directly, including the contact sheet photo. if you have RAW+JPG, copy them both. Darktable can be set to ignore JPGs, which we will do later.
 
-# Install the software
-
-I decided a few years ago to use only free software, preferring open source where possible. This includes running Linux as my main operating system. Of course, you do not have to run linux, but if you do run Windows, then you may struggle to run my digital darkroom app of choice, Darktable. There is no official Windows build available at the time of writing. You may therefore prefere to use RawTherapee instead, as a good and open source equivalent. Unfortunately, I cannot offer any advice on its use, although I have tried it. It appears to offer more than darktable in the way of 'scientific' image adjustment, but feels harder to use and less practical in the real world, especially dealing with images in bulk.
-
-All I can say that darktable is a truly amazing piece of software and fits naturally and beautifully into my workflow, almost as if the designers use it in the same way that I do. There is very little compromise. I do wish that it had the ability to edit exif tags as that would allow me to remove a step from my workflow, but everyting else about it is perfect.
 
 # Import the images
 
 Once you have Darktable up and running, the next thing to do is to import the folders that contain your negatives scans. This is a simply process of importing a folder. You will notice a little checkbox about 'ignore JPG files', which you should check if you want to use your RAW images.
 
-If you stored your scans on your NAS at home and wish to process them on a laptop away from home then there is a fantastic feature to support this in Darktable. It offers the ability to 'copy images locally'. As it says, this creates local copies of the master folders and will keep the masters automatically in sync with all your changes whenever your laptop is reconnected to your home network. When you are done with editing, simply select the 'remove local copy' option for the images. I do most of my digital processing during my commute on a train with my laptop. This feature is invaluable to me and I strongly recommend you use it if you will be working in the same way.
+If you stored your scans on your NAS at home and wish to process them on a laptop away from home then there is a fantastic feature to support this in Darktable. It offers the ability to 'copy images locally'. As it says, this creates local copies of the master folders and will keep the masters automatically in sync with all your changes whenever your laptop is reconnected to your home network. When you are done with editing, simply select the 'resync local copy' option for the images. I do most of my digital processing during my commute on a train with my laptop. This feature is invaluable to me and I strongly recommend you use it if you will be working in the same way.
 
 If you use this local copy feature and Darktable hangs during startup, it may be because linux is struggling to find your network drives. To cleanly mount and unmount your network, simply use these commands. Once the connection is removed or re-added as appropriate, then restart Darktable and it will work again.
 
