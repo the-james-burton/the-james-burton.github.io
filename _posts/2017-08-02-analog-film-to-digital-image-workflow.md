@@ -371,19 +371,21 @@ My preferred folder structure is simple and looks like the below. I'm not saying
 
 Copy all the digital scans up to the correct directly, including the contact sheet photo. if you have RAW+JPG, copy them both. Darktable can be set to ignore JPGs, which we will do later.
 
+# The Digital Darkroom - Effective working in Darktable
 
-# Import the images
+# Import and local copy
 
 Once you have Darktable up and running, the next thing to do is to import the folders that contain your negatives scans. This is a simply process of importing a folder. You will notice a little checkbox about 'ignore JPG files', which you should check if you want to use your RAW images.
 
-If you stored your scans on your NAS at home and wish to process them on a laptop away from home then there is a fantastic feature to support this in Darktable. It offers the ability to 'copy images locally'. As it says, this creates local copies of the master folders and will keep the masters automatically in sync with all your changes whenever your laptop is reconnected to your home network. When you are done with editing, simply select the 'resync local copy' option for the images. I do most of my digital processing during my commute on a train with my laptop. This feature is invaluable to me and I strongly recommend you use it if you will be working in the same way.
+If you stored your scans on your NAS at home and wish to process them on a laptop away from home then there is a fantastic feature to support this in Darktable. It offers the ability to 'copy images locally'. As it says, this creates local copies of the master folders and will keep the masters automatically in sync with all your changes whenever your laptop is reconnected to your home network.
+
+When you are done with editing, simply select the 'resync local copy' option for the images. I do most of my digital processing during my commute on a train with my laptop. This feature is invaluable to me and I strongly recommend you use it if you will be working in the same way.
 
 If you use this local copy feature and Darktable hangs during startup, it may be because linux is struggling to find your network drives. To cleanly mount and unmount your network, simply use these commands. Once the connection is removed or re-added as appropriate, then restart Darktable and it will work again.
 
 To remove a connection when on the move: `sudo umount -l /media/yourNasName`
 
 To re-add a conection when you return home: `sudo mount -a`
-
 
 # Process the scans
 
@@ -397,7 +399,7 @@ Summarizing the active modules for my presets:
 0. **local contrast** - I used this to give some images a little more 'punch'. It is optional and the purist will not like it.
 0. **crop and rotate** - Used to strip off the sprockets from the scanand give a borderless image. If you managed to keep all your scans centred in the same way, then a single crop preset will work nicely for all. Note that when you rotate an image to get it portrait, Darktable does not properly rotate your crop. Bug report [11566](https://redmine.darktable.org/issues/11566) seems to cover this problem. To work around this, I have another preset to rotate and crop the image to portrait.
 0. **orientation** - Used to rotate the image to portrait if needed.
-0. **lens correction** - This is very helpful and allows you to simply select your camera to remove known lens distortions and vingetting. If you are using a close macro setting, you will need this if your camera does not offer effective automatic correction. Simply choose your camera, focal length and f-stop and the module should make the best corrections with no further input.
+0. **lens correction** - This is very helpful and allows you to simply select your camera to remove known lens distortions and vingetting. If you are using a close macro setting, you will need this if your camera does not offer effective automatic correction, since distortion at macro distances is high. Simply choose your camera, focal length and f-stop and the module should make the best corrections with no further input.
 0. **spot removeal** - It is very hard to keep your negatives completely clean while scanning. Use this to remove dust marks that are inadvertently part of your scan.
 0. **invert** - This is a very useful module that lets you select a blank part of your negatives and automatically 'invert' the image based on that. Essential with colour negatives. This does most of the work of colour correction for you.
 
@@ -414,6 +416,8 @@ Once you are happy with your images then you should export them all from Darktab
 Why quality 75? Various articles on the internet suggest that there is little benefit to going higher. You will end up with significantly larger files for no perceptual increase in quality. If you have a very smooth image in which JPG artifacts become visible, then both analog film and JPG are poor choices in the first place. If you are more comfortable with a higher quality setting, then of course use it. Do your own research to find out more.
 
 If you created local copies in darktable (perhaps to support remote laptop working as I do) then you can now remove them if you wish. You will not be doing any more work on them unless you wish to reprocess in the future.
+
+# Post-export tidy up
 
 # Update the EXIF tags
 
