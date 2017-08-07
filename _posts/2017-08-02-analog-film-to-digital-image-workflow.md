@@ -34,6 +34,10 @@ Do you intend to work entirely in the analog world, using enlargers to produce p
 
 The final digital images you create are an unavoidable synergy of your film negative and your scanning equipment. There is no way to avoid that fact. There is also nothing wrong in that. Remember that you will always have your negatives and you can go back to rescan the best in a higher quality or even try an enlarger at some point in the future. This text shows you how to get good results and retain control over the digital process.
 
+## How to contribute
+
+If you would like to edit this document, then simply submit a pull requests with your edits are Feel free to fork, rewrites and republish elsewhere but please credit me if you do with a link to my flickr page. If you would like to ask me a question, make criticism or offer suggestions, then please raise an issue on github. Thanks for reading!
+
 # Choose your weapons - Camera and Film
 
 ## The camera
@@ -373,7 +377,7 @@ Copy all the digital scans up to the correct directly, including the contact she
 
 # The Digital Darkroom - Effective working in Darktable
 
-# Import and local copy
+## Import and local copy
 
 Once you have Darktable up and running, the next thing to do is to import the folders that contain your negatives scans. This is a simply process of importing a folder. You will notice a little checkbox about 'ignore JPG files', which you should check if you want to use your RAW images.
 
@@ -387,7 +391,7 @@ To remove a connection when on the move: `sudo umount -l /media/yourNasName`
 
 To re-add a conection when you return home: `sudo mount -a`
 
-# Process the scans
+## Process the scans
 
 Now for another fun part of the process. This is where you will see your negative scans turned into real digital images. Before you ask, I am afraid there is no one size fits all magic button you can press to get everything to always look its best. You will need to spend some time designing presets in Darktable that get you 90% of the way there and then manually adjust per-image until you are happy. I have provided copies of my Darktable presets that I use on every batch.
 
@@ -409,7 +413,7 @@ Regarding other modules, I have on occasion used the perspective correction modu
 
 Notice that I do not use the denoise option. My little Olympus XZ-1 scanning camera is quite noisy, even at ISO 100. Use the darktable denoise and both digital noise and film grain disappear. The grain and noise are thus sadly inseperable as far as I can tell. I intend to try median blending to see if it produces better results. However, I expect that in reality the film grain and my digital noise are pretty close in terms of noise floor. Using a scanning camera with a larger sensor is probably the answer.
 
-# Export the scans
+## Export the scans
 
 Once you are happy with your images then you should export them all from Darktable. I leave the defaults as they are and choose JPG with a quality setting of 75. This will produce files of around 1Mb each in a subdirectory of your main film roll folder called 'darktable_exported'.
 
@@ -419,7 +423,7 @@ If you created local copies in darktable (perhaps to support remote laptop worki
 
 # Post-export tidy up
 
-# Update the EXIF tags
+## Update the EXIF tags
 
 We now come to perhaps the trickiest part of the process. Your exported JPGs will retain the EXIF metadata from the camera that took the photos. Unfortunately, that is not your analog film camera, that is your digital scanning camera! You must now remove all traces of that metadata and replace it with your own to show the film camera that you used. You may think that this is an optional step. However, if you do not do this, then popular photo sharing websites will report that your scanning camera took the photo. This may also prevent you from sharing your photos in certain groups that insist on correct EXIF metadata.
 
@@ -436,7 +440,9 @@ exiftool -all= -overwrite\_original -Make=Olympus -Model=OM-2n -ISO=400 *.jpg
 
 Sadly, there does not seem to be any standard EXIF tag for film type. Nevertheless, you may wish to use more fields. For example, there is a lens field in which you could report the lens you used. I don't personally do this. I often take two lens out on photo shoots and I can't always remember which one was used for each photo.
 
-# Publish the scans to the web
+# Your finished digital images - sharing and backup
+
+## Publish to the web
 
 You now have internet ready versions of your analog film photos. It has been quite a long process, but you can be proud of what you have done. Time to share it with the world. I use flickr which offers some great ways to share photos, showcase your best work and connect with people all over the world. I upload whole rolls at a time and put them into their own album. For the album title, I start with the date and then the place I went to. If I took more than one roll that day, I add 'roll 1' at the end as appropriate.
 
@@ -448,21 +454,19 @@ I do not rename the files or add a comment. There are too many of them and I don
 
 Having a comment like this helps people who are interested in film photograph to understand your process. As you know from reading this, I use a standard Ilford process so there are no surprises to my information. If you become more adventurous then this information becomes more interesting to people. You may also wish to catalog and share your 'dev recipes' as they tend to be called on sites such as [filmdev.org](http://filmdev.org).
 
-# Backup the scans to your cloud
+## Backup to your cloud
 
 Unless you have already made additional backups, then you will only have one master copy of your negative scans and their processing. Whilst your exported images my be safely uploaded to flickr or similar website, what about your master copies? You should purchase and use an good cloud storage solution. I use [pCloud](https://my.pcloud.com/) myself, since it is compatible with linux, integrates with the file manager for seamless use and offers good storage at a cheap price.
 
 Darktable is a non-destructive editor, meaning it does not alter your original RAW scans. It stores all your edits in a XMP file in the same directory as your RAW scans. This file is a history of all your active modules and actions. Darktable u every time. This is very powerful and makes backing everything up, inclses this to 'replay' these actions to a RAW scan to get you back to where you were from the RAW scanuding the complete history of your processing actions alongside the RAW scans and exports. I expect this is a standard technique and related software such as RawTherapee will almost certainly do similar.
 
-# Share the best photos
+## Share the best images
 
 The final step to help make the photographic community aware of your great photos is to post them into an interest group on flickr. You should start by searching for groups directly related to the film camera you use, the film you use and even the dev chemistry. I post into the ... groups.
 
 There are alternatives to flickr groups of course, such as instagram hashtags. A brief search on the internet and you will surely know nore than I do about sharing your photographs!
 
-# Appendix
-
-# A: Custom Lens Correction
+# Advanced - Custom Lens Correction
 
 Your scanning camera will introduce distortion into your scans. Darktable has a large database of cameras and lens and yours will likely be on it. These corrections come from the [lensfun](http://lensfun.sourceforge.net) project, which Darktable depends on.
 
@@ -486,7 +490,7 @@ You then use Hugin to correct this image. After you install Hugin, you will have
 
 You can search around for more help with this process, for example, [here](http://libregraphicsworld.org/blog/entry/creating-lens-distorsion-models-with-hugin-lens-calibrator).
 
-# B: Median blending
+# Advanced - Median blending
 
 Digital noise can affect individual pixels in random ways. If we were to take two photos of a scene they would be affected by the noise in subtly different ways. The effect is however, always the same. That is, to report an incorrect luminance value +/- a given amount over a bell curve distribution. Take enough photos of the exact same scene and eventually the majority of them will have the 'correct' value for the pixel. Because the noise is distributed over a a bell curve, this will be the median value. An image comprised of the 'median' value for the pixel for a stack of images of the same scene is called [median blending](https://petapixel.com/2013/05/29/a-look-at-reducing-noise-in-photographs-using-median-blending/).
 
@@ -506,7 +510,7 @@ However, in practice there are complications...
 
 There is not much written about this surprisingly simple technique. Nor does it appear to have made it in-camera yet, which is really where it needs to be in my opinion. I believe there are some phone camera apps that have the feature built in, so hopefully it will become more readily available. I suspect median blending is worth doing individually, on the best of your images that you want to share or to print.
 
-# C: Colour Correction
+# Advanced - Colour Correction
 
 Digitally processing colour negatives to get an accurate colour reproduction is hard. Early problems that you will encounter are the obvious orange cast to the negatives and also the fixed white balance of film. There is also the problem of 'what were the colours actually like when I took the photo?'. Furthermore, your scanning hardware and computer monitor will affect the colour in subtle ways. These things make getting realistic and 'correct' colours quite difficult.
 
@@ -540,14 +544,10 @@ So even with proper colour calibration in place, there are factors beyond your c
 
 This should improve your colour accuracy a lot. This process is still necessary even if you have properly calibrated your monitor. White balance is still a consideration, since the white balance of film is fixed. You will need to adjust for at least daylight vs indoors. You can do this with the white balance module. First, choose a representative image for each situation you want a white balance style for. You then use the white balance module in darktable to 'auto' balance the frame, excluding borders. This is good enough for me with just two styles.
 
-# D: HDR with Exposure Bracketing
+# Advanced - HDR with Exposure Bracketing
 
 Darktable has the ability to merge together an arbitrary number of images into a final HDR image in DNG format. Given that my XZ-1 has exposure bracketing, this is an interesting proposition. In theory, this will allow us to capture more shadow and highlight detail.
 
 To try this out, simply set your scanning camera to take multiple exposures at the widest ranges possible. I get three images at -1, 0 and +1 EV. Import them into darktable as normal, select them all and then use the 'create HDR' button in the 'selected image(s)' section on the right hand side. This will give you an additional image in DNG format. You can then process that as normal, although you may need to tweak your style.
 
 I have tried this out on a couple of rolls of film. Unfortunately, I think that the single image, non-HDR scans are better! Examples below. The HDR seems to be noisier and I could not easily discern any extra details in the shadows or highlights. Of course, your mileage may vary and maybe you can make it work well for you.
-
-# How to contribute
-
-If you would like to edit this document, then simply submit a pull requests with your edits are Feel free to fork, rewrites and republish elsewhere but please credit me if you do with a link to my flickr page. If you would like to ask me a question, make criticism or offer suggestions, then please raise an issue on github. Thanks for reading!
