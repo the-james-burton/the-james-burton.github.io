@@ -66,6 +66,13 @@ Reference-style:
 
 [logo]: /assets/images/test-image.png "Logo Title Text 2"
 
+| | |
+|-|-|
+| image in table | ![alt text](/assets/images/test-image.png) |
+
+
+HTML: <img style="float: right;" src="/assets/images/test-image.png">
+
 ### Tables
 
 Colons can be used to align columns.
