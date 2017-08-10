@@ -1,0 +1,17 @@
+---
+layout: post
+title: Advanced -> Bracketed HDR
+subtitle: "Sorry, but it is disappointing at first glance"
+date:   2017-08-17 18:00:00
+categories: [photography]
+---
+
+Darktable has the ability to merge together an arbitrary number of images into a final HDR image in DNG format. This is first class support, via a 'Create HDR' button in the 'selected images' section on the lighttable view. However, there is little documentation about how it does it. Given the chatter online about various algorithms and comparisons, one might have thought that the Darktable team would be keen to share their HDR strategy or even offer some options. As it stands now, that is not the case, and this option is undocumented by anyones standards.
+
+There are no options and no information about what it is actually doing. Nevertheless, given that my XZ-1 has exposure bracketing, this is an interesting proposition. In theory, it should allow us to capture more shadow and highlight detail by providing a series of exposure bracketed images and letting Darktable choose the best bits from each image. 
+
+To try this out, simply set your scanning camera to take multiple exposures at the widest ranges possible. I get three images at -1, 0 and +1 EV. Import them into darktable as normal, select them all and then use the 'create HDR' button in the 'selected image(s)' section on the right hand side. This will give you an additional image in DNG format. You can then process that as normal, although you may need to tweak your style.
+
+I have tried this out on a couple of rolls of film. With a critical eye, I think that the single image, non-HDR scans are better! Examples below. The HDR seems to be noisier and I could not easily discern any extra details in the shadows or highlights. From what I read online, I understand that 35mm film has higher dynamic range than digital, certainly one would expect it to be higher than a modest digital scanning camera such as an Olympus XZ-1. If this is true, then this bracketed HDR should produce improved results.
+
+Of course, your mileage may vary and maybe you can make it work well for you. The Darktable documentation mentions [Luminous HDR](http://qtpfsgui.sourceforge.net/) so that is another option to try. I must try it myself by way of comparison!
