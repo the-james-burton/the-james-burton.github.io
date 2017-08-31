@@ -16,6 +16,12 @@ Secondly, a zoom lens is a big distraction. It is hard enough to focus correctly
 
 I have shot over thirty rolls and only now do I feel comfortable using a modest 28-80mm F3.5-4.5 zoom lens. Leave the wide aperture zoom to the digital autofocus world. Your negatives, your neck and your children will all thank you. If you do decide to venture out with a large amount of glass, then please take a lens hood and a lot of patience.
 
+## Black and white
+
+Comments to follow...
+
+## Colour
+
 ## Store the film
 
 When you have shot a roll of film, don't just wind it all up immediately onto the spool. There is a simple technique that will make your life easier when working in the changing bag. In my extensive study of film photography, I only read about this trick once. When you try it yourself, you will never take a film out of your camera any other way.

@@ -1,4 +1,4 @@
-There are two stages of chemical mixing. The first stage is done to make the reuseable chemistry, specifically the stopbath, the fixer and the wetting agent. In the second stage you need to make up fresh developer just prior to use.
+There are two stages of chemical mixing. The first stage is done to make the reuseable chemistry, specifically the stopbath, the fixer and the wetting agent. In the second stage you need to make up fresh developer just prior to use. The below instructions apply to *black and white* processing. There is a paragraph at the end of this chapter that discusses colour chemicals.
 
 ## Reusable chemicals
 
@@ -25,4 +25,8 @@ You do not need distilled water for the developer. Before you begin mixing a dev
 Get your measuring jug labelled 'DEV' and make sure it is clean. Using your little syringe, draw out a full 10ml and empty into the 'DEV' measuring jug. Do the same again, to get 20ml of concentrated developer in your jug. Fill up your jug to 650ml using the water in your pitcher at 20oC. This is your 1:31 dev mix. Now you can 'wash out' your little syringe you used to draw the concentrate using this dev mix in the jug. Stir your dev mix thoroughly with a metal spoon or fork.
 
 Please note that you should mix up your developer only after loading your films in the tank. if you were to mix the dev before loading the tank, then there is a chance that developer solution could get onto the films accidentally, either from a surface or your hands. This will of course spoil your negatives.
+
+## C41 Colour chemicals
+
+I have sucessfully processed Fuji C200 colour films using the Tetenal C41 'colortec' two bath kit. Mix all the chemicals according to the manufacturer instructions and store them in dedicated bottles. All the colour chemistry is reusable many times. You may read online that the C41 colour chemistry is 'nasty'. This might be true. However, in my experience using both, the black and white fixer has the worst smell.
 
