@@ -14,9 +14,9 @@ bundle exec jekyll serve
 
 The site is then available at http://localhost:4000
 
-#### How to merge the posts together into one file?
+#### How to merge all the posts together into one file?
 
-This script is a quick hack to convert a bag of posts into a single post. I use it to aggregate up a series into a one-pager.
+This script is a quick hack to convert many posts into a single post. It can be used to aggregate up everything into a one-page take away.
 
 ```bash
 cd _posts
@@ -29,15 +29,14 @@ head -6 2017-08-01-aftdiw-introduction.md > temp.header.txt
 grep -v "date:   2017" temp.md > temp2.md
 cat temp.header.txt temp2.md > 2017-08-31-aftdiw-one-page.md
 rm temp.md temp2.md temp.header.txt
-
 ```
 
 #### How to separate content from the post itself, for easier joining
 
-The script above is a bit of a hack, but I prefer it to the 'proper' solution at the moment. By using it, I don't need to maintain a separate post for a one-pager. However, this is a 'cleaner', more sustainable and more flexible way to separate content from the post than the above script.
+The script above is helpful to aggregate content into one page if the author has not provided single page versions of series. The below is the 'right' way to separate markdown content from presentation when using Jekyll. This advice is based on [this comment](https://github.com/jekyll/jekyll/issues/1303#issuecomment-21067548)
 
-0. Extract the markdown post content into it's own file and subdirectory in _includes. Just the content, not the metadata at the top.
-0. Your original post will now just contain the metadata header. Add a bit of code to include the content:
+0. Extract or author the markdown post content into it's own file and subdirectory in _includes. Just the content, not the metadata at the top.
+0. Your original post will now just contain the metadata header. Add a bit of code below this metadata to include the content:
 ```
 {% capture the_content %}{% include aftdiw/1-aftdiw-introduction.md %}{% endcapture %}
 {{ the_content | markdownify }}
