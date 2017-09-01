@@ -37,7 +37,7 @@ Before starting this process is is important that your chemistry is at the same 
 0. **Wash** - You will do a three stage wash known as the 'Ilford Archival Wash'. Fill the tank with pitcher water and invert 5 times. Empty and refill. 10 inversions. Empty and refill. 20 inversions. Empty the third wash water out and go to the next step.
 0. **Blix** - Fill the tank with your blix. There is no need to measure accurately. Just make sure the tank is full up. Agitate gently for 1 minute. Tap to dislodge bubbles. Leave for 60 minutes. When time is up pour the blix back into the appropriate bottle.
 0. **Wash again** - Do another archival wash. Fill the tank with pitcher water and invert 5 times. Empty and refill. 10 inversions. Empty and refill. 20 inversions. Empty the third wash water out and go to the next step.
-0. **Stabilizer** - Fill the tank with your stabilizer. There is no need to measure accurately. Just make sure the tank is full up. Tap to dislodge bubbles. Leave for 1 minutes. When time is up pour the developer back into the appropriate bottle.
+0. **Stabilizer** - Fill the tank with your stabilizer. There is no need to measure accurately. Just make sure the tank is full up. Tap to dislodge bubbles. Leave for 1 minute. When time is up pour the stabilizer back into the appropriate bottle.
 
 After the stabilizer, you are done and the films can be removed. This unofficial stand development process for colour is so effective and easy that I wonder why the manufacturers of these C41 kits don't research it more and formalise into an official process. Surely they would sell a lot more kits were they to do so.
 
@@ -54,4 +54,3 @@ If you have black and white films, you are now going to wipe the excess water of
 Now fold over the black end of the film strip at the bottom and clip your weight onto it. This will help stop it curling while it is drying. Leave the film to dry overnight. Don't attempt to cut and store wet negatives. They are more delicate when wet and easily damaged.
 
 Once done, remember to clean everything up. Wash your tank, measuring jugs, funnel and anything else that was involved in the process. I don't use any soap or washing up liquid for this, I just rinse with tap water and wipe with a dedicated microfibre cloth (not the one used for drying negatives, of course).
-
