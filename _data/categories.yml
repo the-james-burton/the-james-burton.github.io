@@ -1,8 +1,8 @@
-- slug: client
-  name: Client
-
-- slug: server
-  name: Server
+- slug: computing
+  name: Computing
 
 - slug: photography
   name: Photography
+
+- slug: sunvox
+  name: Sunvox
