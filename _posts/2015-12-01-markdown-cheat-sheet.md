@@ -3,7 +3,7 @@ layout: post
 title: Markdown Cheat Sheet
 subtitle: "Examples of how to do it."
 date:   2015-12-01 21:00:00
-categories: [setup]
+categories: [computing]
 ---
 
 This is a post for me to reference with markdown on it, so I know what the syntax is. It is based on this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) tweaked for Kramdown.
